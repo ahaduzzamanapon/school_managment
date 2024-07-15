@@ -1,5 +1,5 @@
 {
-    "InfixBiometrics": false,
+    "InfixBiometrics": true,
     "FeesCollection": false,
     "ResultReports": false,
     "TemplateSettings": true,
@@ -26,7 +26,7 @@
     "AppSlider": false,
     "Raudhahpay": false,
     "Lead": false,
-    "Lms": false,
+    "Lms": true,
     "KhaltiPayment": false,
     "ExamPlan": true,
     "University": false,

@@ -8529,7 +8529,7 @@ table.dataTable thead .sorting_desc::after {
     color: #415094;
     padding-left: 20px;
     height: 46px;
-    border-radius: 30px;
+    border-radius: 4px !important;
     width: 100%;
     padding-right: 15px;
 }
@@ -8997,7 +8997,7 @@ table.dataTable thead .sorting_desc::after {
 .primary_select {
     width: 100%;
     border: 1px solid rgba(130, 139, 178, 0.3);
-    border-radius: 3px;
+    border-radius: 3px !important;
     height: 46px;
     line-height: 44px;
     font-size: 13px;

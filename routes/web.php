@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-// if (config('app.app_sync')) {
-//     Route::get('/', 'LandingController@index')->name('/');
-// }
+if (config('app.app_sync')) {
+    Route::get('/', 'LandingController@index')->name('/');
+}
 
 if (moduleStatusCheck('Saas')) {
     Route::group(['middleware' => ['subdomain'], 'domain' => '{subdomain}.' . config('app.short_url')], function ($routes) {
